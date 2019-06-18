@@ -1,0 +1,81 @@
+#product {
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+#product #logo{
+    width: 33.333%;
+    text-align: 12px;
+}
+
+#product #date{
+    width: 33.333%;
+    font-size: 12px;
+    text-align: center;
+}
+
+#product #alert{
+    width: 33.333%;
+    text-align: center;
+}
+
+#product #alert img{
+    border: 1px black solid;
+    border-radius: 50%;
+}
+
+#removecontent{
+    border-radius: 5%;
+    width: auto;
+    height: 100%;
+}
+
+#addcontent{
+    border-radius: 5%;
+    width: auto;
+    height: 100%;
+}
+
+#enddate{
+    border: none;
+}
+
+#productname{
+    border: none;
+}
+
+#nameremove{
+    border: none;
+}
+
+#alert1{
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    background-color: rgb(122, 238, 228);
+}
+
+#alertC{
+    padding: 0%;
+    margin: 0%;
+    height: 100%;
+    background-color: rgb(122, 238, 228);
+}
+
+#submitbuttonremove{
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+#submitbuttonadd{
+    position: absolute;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
