@@ -19,7 +19,13 @@
     text-align: center;
 }
 
-#product #alert img{
+.alert{
+    padding: 0% !important;
+    margin: 0% !important;
+    border: none !important;
+}
+
+.alert img{
     border: 1px black solid;
     border-radius: 50%;
 }
