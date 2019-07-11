@@ -16,6 +16,7 @@ form.onsubmit = function(event){
   console.log(correcteddate);
 
   localStorage.setItem(namejoin, namejoin + " " + correcteddate)
+  location.reload();
 };
 
 // var erasebutton = document.getElementById('eraseall');
@@ -73,11 +74,11 @@ for (i=0; i<len; i++){
     document.getElementById(list[i][0] + 'alert').innerHTML = '<img src="images/yellow (20x20).jpg" alt="whitealert">'
   };
   
-  if (timediff <= 7 && timediff > 3) {
+  if (timediff <= 7 && timediff >=3) {
     document.getElementById(list[i][0] + 'alert').innerHTML = '<img src="images/orange (20x20).jpg" alt="whitealert">'
   }; 
 
-  if (timediff <= 3 && timediff > -1) {
+  if (timediff < 3 && timediff > -1) {
     document.getElementById(list[i][0] + 'alert').innerHTML = '<img src="images/red (20x20).jpg" alt="whitealert">'
   };
 
@@ -135,4 +136,5 @@ for (i=0; i<len; i++){
   }
 
 };
+
 
